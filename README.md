@@ -10,8 +10,8 @@ My obsession is solving the **signal-to-noise problem** in AI code review. My co
 
 ### Phase 1: Deep Context Review (Today) — LlamaPReview
 
-[![Active Repos](https://img.shields.io/badge/Active_Repos-4,000+-success?style=flat-square)](https://github.com/marketplace/llamapreview)
-[![Combined Stars](https://img.shields.io/badge/Combined_Stars-35K+-yellow?style=flat-square)](https://github.com/marketplace/llamapreview)
+[![Active Repos](https://img.shields.io/badge/Active_Repos-4,000+-success?style=flat-square)](https://jetxu-llm.github.io/LlamaPReview-site/)
+[![Combined Stars](https://img.shields.io/badge/Combined_Stars-35K+-yellow?style=flat-square)](https://jetxu-llm.github.io/LlamaPReview-site/)
 [![Try it](https://img.shields.io/badge/GitHub-Marketplace-2088FF?logo=github&style=flat-square)](https://github.com/marketplace/llamapreview)
 
 I built LlamaPReview to prove that evidence-based AI can find bugs that humans miss. It uses a **Context Retrieval Engine** to analyze how changes ripple across a codebase, moving beyond simple `diff` analysis.
@@ -21,7 +21,7 @@ I built LlamaPReview to prove that evidence-based AI can find bugs that humans m
 *   🐛 **Critical Bug in Vanna.ai:** Caught a transaction commit failure in a 20K-star project that was invisible in the diff. **[Read the full case study](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)**.
 *   🚀 **Validated at Scale:** Trusted by over 4,000 repositories.
 
-**[Try LlamaPReview →](https://github.com/marketplace/llamapreview)**
+**[Try LlamaPReview →](https://jetxu-llm.github.io/LlamaPReview-site/)**
 
 ---
 
