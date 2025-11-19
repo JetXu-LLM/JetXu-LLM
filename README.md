@@ -19,7 +19,7 @@ I build **AI systems that understand code at scale**. My work is centered on **R
 
 Most AI tools only see the `diff`. **LlamaPReview analyzes the entire repository as a graph**, understanding how changes ripple through your system to catch critical, cross-file bugs.
 
-````artifact
+````mermaid
 id: graph-rag-diagram
 name: LlamaPReview's Core Logic
 type: mermaid
