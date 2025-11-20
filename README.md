@@ -66,10 +66,10 @@ LlamaPReview was just the first application. My long-term strategy is to build t
 
 I document my research on defining the next generation of AI architecture.
 
-*   **[Case Study: Catching the Invisible Bug](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)** — *Real-world evidence of Graph RAG's superiority over Diff analysis.*
-*   **[Analysis: Why High Signal-to-Noise Ratio is the Holy Grail of AI Code Review](https://jetxu-llm.github.io/posts/low-noise-code-review/)** — *A data-driven look at why context precision matters more than model size.*
-*   *(Coming Soon)* **The "Monday vs. Tuesday" Paradox** — *Why context instability is the #1 killer of trust in AI tools, and why "smarter" models aren't the fix.*
-*   *(Coming Soon)* **Beyond Probabilistic Agents** — *How deterministic Graph RAG achieves the 100% context consistency that search and agents cannot.*
+*   **[Case Study: Catching the "Invisible" Bug](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)** — *Real-world evidence: How we found a critical logic error in a 20k-star repo that standard "Diff-based" AI missed entirely.*
+*   **[The Signal-to-Noise Ratio in AI Code Review](https://jetxu-llm.github.io/posts/low-noise-code-review/)** — *A new evaluation framework: Why simply increasing context window size often leads to lower quality reviews.*
+*   *(Coming Soon)* **The Inconsistency Problem** — *Why the same AI tool works perfectly on Monday but fails on Tuesday: A deep dive into "Context Instability."*
+*   *(Coming Soon)* **The End of Guesswork: Repository Graph RAG** — *Moving beyond probabilistic search to deterministic, graph-based dependency analysis for 100% consistent context.*
 
 ---
 
