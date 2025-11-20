@@ -66,8 +66,8 @@ LlamaPReview was just the first application. My long-term strategy is to build t
 
 I document my research on defining the next generation of AI architecture.
 
-*   **[Analysis: Why High Signal-to-Noise Ratio is the Holy Grail of AI Code Review](https://jetxu-llm.github.io/posts/low-noise-code-review/)** — *A data-driven look at why context precision matters more than model size.*
 *   **[Case Study: Catching the Invisible Bug](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)** — *Real-world evidence of Graph RAG's superiority over Diff analysis.*
+*   **[Analysis: Why High Signal-to-Noise Ratio is the Holy Grail of AI Code Review](https://jetxu-llm.github.io/posts/low-noise-code-review/)** — *A data-driven look at why context precision matters more than model size.*
 *   *(Coming Soon)* **The "Monday vs. Tuesday" Paradox** — *Why context instability is the #1 killer of trust in AI tools, and why "smarter" models aren't the fix.*
 *   *(Coming Soon)* **Beyond Probabilistic Agents** — *How deterministic Graph RAG achieves the 100% context consistency that search and agents cannot.*
 
