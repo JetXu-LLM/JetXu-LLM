@@ -1,70 +1,91 @@
 ### Hi, I'm Jet Xu 👋
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jiantongxu/)
-[![Blog](https://img.shields.io/badge/Blog-jetxu--llm.github.io-blue?style=flat-square)](https://jetxu-llm.github.io)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jiantong.xu@foxmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jiantongxu/)
+[![Blog](https://img.shields.io/badge/Blog-Engineering_Strategy-blue?style=flat-square)](https://jetxu-llm.github.io)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jiantong.xu@foxmail.com)
 
-Today's AI for code is a mile wide and an inch deep. It can write a function, but it can't grasp the architecture. It's stuck seeing the trees, blind to the forest.
+> **"The future of AI coding isn't just larger context windows—it's smarter context retrieval."**
 
-My conviction: **True code intelligence doesn't come from analyzing text; it comes from understanding relationships.** The future of AI-powered development will be built on a single source of truth: the **Repository Knowledge Graph**.
+I am an architect solving the **"Context Precision"** problem in AI software engineering.
 
----
-
-### The First Proof: From Insight to Impact with LlamaPReview
-
-To validate this thesis, I started with the most painful problem in development: noisy, context-blind AI code reviews. The result is LlamaPReview.
-
-It's not just another reviewer. It's the first application of my graph-based philosophy, using a **Context Retrieval Engine** to find evidence across the entire codebase.
-
-**The market has validated this approach:**
-*   🚀 **Trusted by 4,000+ repositories** with over **35,000+ combined stars**.
-*   🎯 **Achieved a 61% signal-to-noise ratio**, 3x higher than diff-based tools. **[Read the analysis](https://jetxu-llm.github.io/posts/low-noise-code-review/)**.
-*   🐛 **Identified a critical bug in Vanna.ai** (a 20K-star project) that was invisible to human reviewers and other AI tools. **[See the case study](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)**.
-
-[![Try it](https://img.shields.io/badge/Try_LlamaPReview_in_the_Marketplace-2088FF?logo=github&style=flat-square)](https://jetxu-llm.github.io/LlamaPReview-site/)
+While others focus on stuffing more code into an LLM, my focus is on **Repository Graph RAG**—building the "GPS" for codebases. My goal is to enable AI to navigate complex, cross-module dependencies and understand architectural impact with **surgical precision and minimal token usage**.
 
 ---
 
-### The Engine: The Repository Knowledge Graph
+### 1. The Proof of Concept: LlamaPReview
+**High-Precision Code Review via Contextual Retrieval**
 
-LlamaPReview's success is a symptom of a more powerful underlying technology I'm developing. It's not just another RAG; it's a persistent, queryable model of a codebase's soul.
+I built LlamaPReview to prove that **less is more**: by retrieving only the *relevant* dependency graph, we can outperform massive context windows.
 
-**This is the game-changer:**
-*   **It maps everything:** Classes, functions, dependencies, call hierarchies, and even historical change patterns.
-*   **It enables deep reasoning:** An AI can now ask questions like, "What are the downstream impacts of changing this API?" or "Find all services that don't adhere to our new retry-logic pattern."
-*   **It's the foundation:** My preliminary benchmarks show this graph-based approach improves code understanding by **70%** over traditional methods.
+[![Active Repos](https://img.shields.io/badge/Active_Repos-4,000+-success?style=flat-square)](https://github.com/marketplace/llamapreview)
+[![Combined Stars](https://img.shields.io/badge/Combined_Stars-35K+-yellow?style=flat-square)](https://github.com/marketplace/llamapreview)
 
----
+*   **The Metric:** Achieved a **61% Signal-to-Noise Ratio** (3x industry average) by filtering out irrelevant code noise.
+*   **The Evidence:** Caught a critical transaction bug in **Vanna.ai** (20K stars) that required tracing logic across multiple hidden modules—something standard "diff-based" AI missed entirely.
+*   **The Product:** A validated SaaS solution trusted by 4,000+ repositories.
 
-### The Vision: An Ecosystem of Architecturally-Aware AI Agents
-
-The Repository Graph is not just for code review. It's a platform for a new generation of AI developers.
-
-Imagine agents that can:
-*   **Perform autonomous, large-scale refactoring.**
-*   **Automate complex framework migrations.**
-*   **Generate architectural diagrams and documentation in real-time.**
-*   **Identify security vulnerabilities based on deep data-flow analysis.**
-
-This is the future I'm building. The open-source library below is the first step in creating this ecosystem.
+👉 **[Visit Product Site](https://jetxu-llm.github.io/LlamaPReview-site/)** | 📊 **[Read the Signal-to-Noise Analysis](https://jetxu-llm.github.io/posts/low-noise-code-review/)**
 
 ---
 
-### 🛠️ The Foundation: llama-github
+### 2. The Foundation: llama-github
+**The Retrieval Infrastructure Layer**
+
+To build a graph, you first need high-fidelity data. I open-sourced the retrieval engine that powers my experiments.
 
 [![PyPI](https://img.shields.io/pypi/v/llama-github?style=flat-square)](https://pypi.org/project/llama-github/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](https://github.com/jetxu-llm/llama-github)
 
-The open-source library that brings repository knowledge to LLMs. It's the first building block for the ecosystem I envision.
+*   **Role:** A production-grade library designed to fetch and structure GitHub data specifically for RAG pipelines.
+*   **Capability:** Bridges the gap between raw Git objects and AI-ready context.
 
-```bash
-pip install llama-github
+```python
+from llama_github import GithubRAG
+# Efficiently retrieve cross-module context without cloning the entire repo
+context = github_rag.retrieve_context("How does the payment service impact the user schema?")
 ```
 
-**[View on GitHub →](https://github.com/jetxu-llm/llama-github)**
+👉 **[View on GitHub](https://github.com/jetxu-llm/llama-github)**
+
+---
+
+### 3. The Vision: Repository Graph RAG
+**Occupying the "Code Understanding" Ecological Niche**
+
+LlamaPReview was just the first application. My long-term strategy is to build the definitive **Repository Knowledge Graph** that serves as the backend for all autonomous coding agents.
+
+*   **The Problem:** Flat text search (Standard RAG) loses the *relationships* between classes, methods, and data flows.
+*   **The Solution:** A traversable graph that allows LLMs to "hop" through dependencies.
+*   **The Value:**
+    *   **Token Efficiency:** Solves the problem with 5% of the tokens required by full-context approaches.
+    *   **Impact Analysis:** Instantly identifies how a change in `Module A` breaks `Module Z` without reading the files in between.
+    *   **Scalability:** The only viable path for AI to understand million-line monoliths.
+
+---
+
+### 📚 Strategic Insights
+
+I document my research on defining the next generation of AI architecture.
+
+*   **[Analysis: Why High Signal-to-Noise Ratio is the Holy Grail of AI Code Review](https://jetxu-llm.github.io/posts/low-noise-code-review/)** — *A data-driven look at why context precision matters more than model size.*
+*   **[Case Study: Catching the Invisible Bug](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)** — *Real-world evidence of Graph RAG's superiority over Diff analysis.*
+*   *(Coming Soon)* **The "Monday vs. Tuesday" Paradox** — *Why context instability is the #1 killer of trust in AI tools, and why "smarter" models aren't the fix.*
+*   *(Coming Soon)* **Beyond Probabilistic Agents** — *How deterministic Graph RAG achieves the 100% context consistency that search and agents cannot.*
+
+---
+
+### 💻 Tech Stack
+
+| **Core Intelligence** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-121212?style=flat-square) ![Hugging Face](https://img.shields.io/badge/-HF-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
+| **Graph & Data** | ![ArangoDB](https://img.shields.io/badge/-ArangoDB-DDE072?style=flat-square&logo=arangodb&logoColor=black) ![Neo4j](https://img.shields.io/badge/-Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) |
 
 ---
 
 ### 📫 Let's Connect
 
-I'm looking to connect with teams and leaders who are building the future of software development. If you believe that deep, architectural understanding is the next frontier for AI in coding, let's talk.
+I am building the infrastructure that will power the next decade of AI development tools.
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/jiantongxu/)
+- 📝 [Blog](https://jetxu-llm.github.io)
+
+---
+*Building the GPS for the world's code.*
