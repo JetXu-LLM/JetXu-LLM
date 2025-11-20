@@ -17,8 +17,8 @@ While others focus on stuffing more code into an LLM, my focus is on **Repositor
 
 I built LlamaPReview to prove that **less is more**: by retrieving only the *relevant* dependency graph, we can outperform massive context windows.
 
-[![Active Repos](https://img.shields.io/badge/Active_Repos-4,000+-success?style=flat-square)](https://github.com/marketplace/llamapreview)
-[![Combined Stars](https://img.shields.io/badge/Combined_Stars-35K+-yellow?style=flat-square)](https://github.com/marketplace/llamapreview)
+[![Active Repos](https://img.shields.io/badge/Active_Repos-4,000+-success?style=flat-square)](https://jetxu-llm.github.io/LlamaPReview-site/)
+[![Combined Stars](https://img.shields.io/badge/Combined_Stars-35K+-yellow?style=flat-square)](https://jetxu-llm.github.io/LlamaPReview-site/)
 
 *   **The Metric:** Achieved a **61% Signal-to-Noise Ratio** (3x industry average) by filtering out irrelevant code noise.
 *   **The Evidence:** Caught a critical transaction bug in **Vanna.ai** (20K stars) that required tracing logic across multiple hidden modules—something standard "diff-based" AI missed entirely.
