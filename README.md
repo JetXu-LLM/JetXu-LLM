@@ -48,17 +48,19 @@ context = github_rag.retrieve_context("How does the payment service impact the u
 
 ---
 
-### 3. The Vision: Repository Graph RAG
-**Occupying the "Code Understanding" Ecological Niche**
+### 3. The Endgame: Code Mesh
+**The Deterministic Context Layer**
 
-LlamaPReview was just the first application. My long-term strategy is to build the definitive **Repository Knowledge Graph** that serves as the backend for all autonomous coding agents.
+LlamaPReview was the experiment. **Code Mesh** is the infrastructure.
 
-*   **The Problem:** Flat text search (Standard RAG) loses the *relationships* between classes, methods, and data flows.
-*   **The Solution:** A traversable graph that allows LLMs to "hop" through dependencies.
-*   **The Value:**
-    *   **Token Efficiency:** Solves the problem with 5% of the tokens required by full-context approaches.
-    *   **Impact Analysis:** Instantly identifies how a change in `Module A` breaks `Module Z` without reading the files in between.
-    *   **Scalability:** The only viable path for AI to understand million-line monoliths.
+Current LLMs treat code like **Text** (a sequence of tokens). Compilers treat code like a **Mesh** (a graph of dependencies).
+**Code Mesh** bridges this gap, giving LLMs the "X-Ray Vision" of a compiler.
+
+*   **The Architecture:** A static analysis engine that builds a persistent dependency graph of the entire repository.
+*   **The Capability:**
+    *   **Surgical Precision:** Retrieve *exactly* the functions needed to understand a change, zero noise.
+    *   **Impact Analysis:** Instantly identify how a change in `Module A` breaks `Module Z` without reading the files in between.
+    *   **Cost Efficiency:** Reduces token usage by 90% compared to full-file context stuffing.
 
 ---
 
@@ -69,7 +71,7 @@ I document my research on defining the next generation of AI architecture.
 *   **[Case Study: Catching the "Invisible" Bug](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)** — *Real-world evidence: How we found a critical logic error in a 20k-star repo that standard "Diff-based" AI missed entirely.*
 *   **[The Signal-to-Noise Ratio in AI Code Review](https://jetxu-llm.github.io/posts/low-noise-code-review/)** — *A new evaluation framework: Why simply increasing context window size often leads to lower quality reviews.*
 *   *(Coming Soon)* **The Inconsistency Problem** — *Why the same AI tool works perfectly on Monday but fails on Tuesday: A deep dive into "Context Instability."*
-*   *(Coming Soon)* **The End of Guesswork: Repository Graph RAG** — *Moving beyond probabilistic search to deterministic, graph-based dependency analysis for 100% consistent context.*
+*   *(Coming Soon)* **The End of Guesswork: Code Mesh** — *Moving beyond probabilistic search to deterministic, graph-based dependency analysis for 100% consistent context.*
 
 ---
 
