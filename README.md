@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Hi, I'm Jet Xu.</h1>
   <p><strong>Turning complex documents and code into reliable context for AI.</strong></p>
-  <p>Systems Architect | 15+ years building mission-critical infrastructure | Context Engineering</p>
+  <p>Systems Architect | 15+ years building mission-critical infrastructure | AI Harnessing & Context Engineering</p>
   <p>
     <a href="https://github.com/JetXu-LLM/DocMason">DocMason</a> |
     <a href="https://jetxu-llm.github.io">Blog</a> |
@@ -49,7 +49,7 @@ By late 2025, it was clear that code review would not remain the terminal surfac
 
 Whether building traditional software or complex multi-agent systems, open-ended "vibe coding" hits a scaling wall. The bottleneck isn't generating code; it is preventing architectural collapse as AI-driven mutations accumulate. 
 
-To solve this, I formalized a universal engineering paradigm for AI-native development—the **Dao / Fa / Qi / Shu** of agentic coding. It shifts AI from a conversational copilot to a constrained actor within a deterministic system:
+To solve this, I formalized a universal paradigm for **AI harnessing engineering**—the **Dao / Fa / Qi / Shu** of agentic coding. It shifts AI from an open-ended conversational copilot to a strictly harnessed actor within a deterministic system:
 
 - **Dao (Direction & Value)**: Defining the invariant product boundaries. Without *Dao*, AI optimizes for local illusions of progress, building features that demo well but corrupt the long-term architecture.
 - **Fa (Runtime Law & State)**: Governing identity, state transitions, and truth surfaces. Without *Fa*, AI silently hallucinates state, conflating generated projections with canonical authored truth.
