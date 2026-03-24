@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Hi, I'm Jet Xu.</h1>
-  <p><strong>Building the infrastructure for autonomous knowledge work.</strong></p>
-  <p>Enterprise AI Architect | 15+ years in mission-critical systems | Context Engineering / Knowledge Infrastructure</p>
+  <p><strong>Turning complex documents and code into reliable context for AI.</strong></p>
+  <p>Systems Architect | 15+ years building mission-critical infrastructure | Context Engineering</p>
   <p>
     <a href="https://github.com/JetXu-LLM/DocMason">DocMason</a> |
     <a href="https://jetxu-llm.github.io">Blog</a> |
@@ -14,7 +14,7 @@
 
 - **Now**: building [DocMason](https://github.com/JetXu-LLM/DocMason), a local-first engine for deep document understanding.
 - **Before**: built code-intelligence systems across [llama-github](https://github.com/JetXu-LLM/llama-github), [LlamaPReview](https://jetxu-llm.github.io/LlamaPReview-site/), and [repo-graph-rag](https://github.com/JetXu-LLM/repo-graph-rag).
-- **Direction**: the Mason ecosystem for document intelligence and consulting-grade knowledge output.
+- **Direction**: the Mason ecosystem—moving from deep document analysis to generating native, consulting-grade presentations.
 
 ## Why This Path
 
@@ -28,7 +28,7 @@ Core architectural priorities:
 
 - **Deterministic ingestion**: parsing PDFs, decks, spreadsheets, emails, and repository-native text without silent failures.
 - **Reliable outputs**: provenance-first retrieval instead of vague, hallucination-prone document chat.
-- **Actionable direction**: extending the Mason ecosystem beyond extraction, toward systems that produce consulting-grade output for serious white-collar work.
+- **Actionable output**: extending the Mason ecosystem beyond extraction. The next step is a deterministic pipeline that turns deep document analysis directly into native, consulting-grade presentations (PPTX) for serious white-collar work.
 
 ## The Foundation
 
@@ -43,14 +43,20 @@ This path started with helping AI understand code diffs, but led to a broader co
 
 ## The Pivot
 
-By late 2025, it was clear that code review would not remain the terminal surface of AI engineering. As vibe coding accelerated, the scarce problem was no longer commenting on diffs, but helping agents understand entire working environments to produce artifacts people could actually use. This is why my focus shifted from code intelligence to document intelligence, and ultimately toward output systems.
+By late 2025, it was clear that code review would not remain the terminal surface of AI engineering. As vibe coding accelerated, the scarce problem was no longer commenting on diffs, but helping agents understand entire working environments to produce artifacts people could actually use—like generating top-tier consulting decks directly from raw knowledge bases. This is why my focus shifted from code intelligence to document intelligence, and ultimately toward visual output systems.
 
-## Doctrine
+## Systemizing "Vibe Coding"
 
-- **Deterministic over probabilistic**: if it works on Monday, it should still work on Tuesday.
-- **Provenance before presentation**: strong output starts with traceable evidence.
-- **Local-first privacy**: serious knowledge work should not require shipping private material to a black box.
-- **Small stable surfaces, deep internal rigor**: keep the interface simple, keep the machinery honest.
+Whether building traditional software or complex multi-agent systems, open-ended "vibe coding" hits a scaling wall. The bottleneck isn't generating code; it is preventing architectural collapse as AI-driven mutations accumulate. 
+
+To solve this, I formalized a universal engineering paradigm for AI-native development—the **Dao / Fa / Qi / Shu** of agentic coding. It shifts AI from a conversational copilot to a constrained actor within a deterministic system:
+
+- **Dao (Direction & Value)**: Defining the invariant product boundaries. Without *Dao*, AI optimizes for local illusions of progress, building features that demo well but corrupt the long-term architecture.
+- **Fa (Runtime Law & State)**: Governing identity, state transitions, and truth surfaces. Without *Fa*, AI silently hallucinates state, conflating generated projections with canonical authored truth.
+- **Qi (Machinery & Control)**: The actual subsystems (controllers, commit barriers, projection layers) that enforce the laws. Without *Qi*, the rules only exist on paper, and the system relies on human vigilance to prevent AI drift.
+- **Shu (Execution & Phasing)**: The deterministic sequence of implementation and validation. Without *Shu*, AI coding devolves into an endless loop of patching symptoms instead of shipping structural phases.
+
+*(I am currently documenting this methodology. A deep dive into building sustainable agent operating surfaces is coming soon to my [Blog](https://jetxu-llm.github.io).)*
 
 ## Selected Writing
 
