@@ -14,7 +14,7 @@
 
 - **Now**: building [DocMason](https://github.com/JetXu-LLM/DocMason), a local-first, evidence-first knowledge base for AI-assisted deep research over private work files.
 - **Before**: built code-intelligence systems across [llama-github](https://github.com/JetXu-LLM/llama-github), [LlamaPReview](https://jetxu-llm.github.io/LlamaPReview-site/), and [repo-graph-rag](https://github.com/JetXu-LLM/repo-graph-rag).
-- **Direction**: the Mason ecosystem—moving from deep document analysis to generating native, consulting-grade presentations.
+- **Direction**: the Mason ecosystem—moving from deep document analysis to multi-stage pipelines that generate editable, consulting-grade native deliverables.
 
 ## Why This Path
 
@@ -28,7 +28,7 @@ Core architectural priorities:
 
 - **Deterministic ingestion**: parsing PDFs, decks, spreadsheets, emails, and repository-native text without silent failures.
 - **Reliable outputs**: provenance-first retrieval instead of vague, hallucination-prone document chat.
-- **Actionable output**: extending the Mason ecosystem beyond extraction. The next step is a deterministic pipeline that turns deep document analysis directly into native, consulting-grade presentations (PPTX) for serious white-collar work.
+- **Actionable output**: extending the Mason ecosystem beyond extraction. The next step is a deterministic, multi-stage pipeline separating semantic narratives from visual layout DOMs, turning deep document analysis directly into editable, consulting-grade native presentations (PPTX) for serious white-collar work.
 
 ## The Foundation
 
@@ -43,7 +43,11 @@ This path started with helping AI understand code diffs, but led to a broader co
 
 ## The Pivot
 
-By late 2025, it was clear that code review would not remain the terminal surface of AI engineering. As vibe coding accelerated, the scarce problem was no longer commenting on diffs, but helping agents understand entire working environments to produce artifacts people could actually use—like generating top-tier consulting decks directly from raw knowledge bases. This is why my focus shifted from code intelligence to document intelligence, and ultimately toward visual output systems.
+By late 2025, the fundamental physics of software engineering began shifting beneath our feet. 
+
+It became clear that reactive code review would not remain the terminal surface of AI engineering. Even advanced code-graph traversals—which I explored via `repo-graph-rag` a year before the current industry hype wave—were solving a problem that was rapidly moving upstream. As autonomous agents and "vibe coding" accelerated, the sheer generative volume made analyzing post-facto diffs feel like patching a leaky pipe while the plumbing was being replaced.
+
+The scarce problem was no longer analyzing code *after* it was written. The real frontier shifted toward commanding entire knowledge environments, preventing architectural collapse, and ensuring agents operate under deterministic constraints *before* generation happens. This is why I chose not to commercialize my early graph-based intelligence tools, and instead pivoted my focus toward proactive context infrastructure and deterministic visual output pipelines.
 
 ## Systemizing "Vibe Coding"
 
@@ -56,10 +60,13 @@ To solve this, I formalized a universal paradigm for **AI harnessing engineering
 - **Qi (Machinery & Control)**: The actual subsystems (controllers, commit barriers, projection layers) that enforce the laws. Without *Qi*, the rules only exist on paper, and the system relies on human vigilance to prevent AI drift.
 - **Shu (Execution & Phasing)**: The deterministic sequence of implementation and validation. Without *Shu*, AI coding devolves into an endless loop of patching symptoms instead of shipping structural phases.
 
-*(I am currently documenting this methodology. A deep dive into building sustainable agent operating surfaces is coming soon to my [Blog](https://jetxu-llm.github.io).)*
+*For a deep dive into building sustainable agent operating surfaces, see my framework on [Vibe Coding and Governance](https://jetxu-llm.github.io/posts/vibe-coding-is-not-prompting-it-is-governance/).*
 
 ## Selected Writing
 
+- [I Built repo-graph-rag Before the Code Graph Wave](https://jetxu-llm.github.io/posts/i-built-repo-graph-rag-before-the-code-graph-wave/)
+- [Vibe Coding Is Not Prompting. It Is Governance.](https://jetxu-llm.github.io/posts/vibe-coding-is-not-prompting-it-is-governance/)
+- [Why I Killed My AI Code Review SaaS (4,000+ Repos) Right Before Monetization](https://jetxu-llm.github.io/posts/why-i-killed-my-ai-code-review-saas/)
 - [Drowning in AI Code Review Noise? A Framework to Measure Signal vs. Noise](https://jetxu-llm.github.io/posts/low-noise-code-review/)
 - [Beyond the Diff: How LlamaPReview Catches Critical Bugs](https://jetxu-llm.github.io/posts/beyond-the-diff-llamapreview-catches-critical-bug/)
 
